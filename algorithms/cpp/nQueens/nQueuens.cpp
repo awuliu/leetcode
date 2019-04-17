@@ -118,6 +118,8 @@ int main(int argc, char** argv)
     
     vector< vector<string> > result = solveNQueens(n);
     printMatrix(result);
+
+    cout << "total: " << result.size() << endl;
     
     return 0;
 }
